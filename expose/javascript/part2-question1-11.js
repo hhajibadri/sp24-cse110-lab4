@@ -1,0 +1,15 @@
+function discountPrices(prices, discount) {
+    const discounted = [];
+    const length = prices.length;
+
+    for(let i = 0; i < prices.length; i++) {
+        const discountedPrices = prices[i] * (1 - discount);
+        discounted.push(finalPrice);
+    }
+
+    // console.log(i);
+    // console.log(length)
+    return discounted;
+}
+
+discountPrices([100, 200, 300], 0.5);

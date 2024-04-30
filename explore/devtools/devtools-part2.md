@@ -1,0 +1,2 @@
+1) The bug that num1 and num2 were strings and so using the add operator is overloaded for strings so it concatenates them together which is why in the watch expression result was of the type string.
+2) To fix this bug I would just reassign num1 and num2 to Number(num1) and Number(num2) so it converts them to integers so that it does integer addition.
