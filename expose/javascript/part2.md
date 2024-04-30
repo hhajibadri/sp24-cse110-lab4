@@ -53,8 +53,9 @@
         let d = new Date();
         let time = d.toLocaleTimeString();
         console.log(time);
-    };
-    setInterval(func, 1000);```
+    }
+    setInterval(func, 1000);
+    ```
 
 19) The output was 1 4 3 2.
 
