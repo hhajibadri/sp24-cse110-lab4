@@ -39,7 +39,7 @@
 
 15) The double equal operator == does type conversion before making the comparison, for example '2' == 2 is evaluated as true since '2' is converted the integer 2. On the other hand the triple equal operator does comparison without type conversion so it a strict equality test, this means that unless the values are the same type and value it will always evaluate as false.
 
-16) 
+16) Code
     ```for(let property in statistics){
         if(property.charAt(0) == 'r' || statistics[property] % 2 != 0){
             console.log(statistics[property]);
@@ -48,14 +48,13 @@
 
 17) The result was that the array is [2, 4, 6]. This is because at every iteration of the for loop we are calling doSomething which returns the double of an integer and we push that to our new array and then return the array after the for loop.
 
-18) 
+18) Code
     ```function func() {
         let d = new Date();
         let time = d.toLocaleTimeString();
         console.log(time);
     }
-    setInterval(func, 1000);
-    ```
+    setInterval(func, 1000);```
 
 19) The output was 1 4 3 2.
 
